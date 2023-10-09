@@ -7,7 +7,7 @@ The cd command, short for "change directory," allows us to change our current wo
 
 __Using cd with no arguments__
 
-![image](image.png)
+![here](image.png)
 
 Working directory: The home directory
 <br>
