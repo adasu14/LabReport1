@@ -30,9 +30,9 @@ Error Indication: No error.
 
 __Using cd with a path to a file as an argument__
 
-![Alt text](image-2.png)
+![Alt text](image-9.png)
 
-Working directory: The current working directory before executing the command
+Working directory: messages
 <br>
 Output Explanation: Using cd with a file path as an argument results in an error because cd can only change to directories, not files.
 <br>
@@ -47,7 +47,7 @@ __Using ls with no arguments__
 
 ![Alt text](image-3.png)
 
-Working Directory: The home directory.
+Working Directory: messages
 <br>
 Output Explanation: Running ls without arguments lists the files and directories in the current directory. The only directory in 'home' is 'lecture1' so this is listed. Any files in 'home' are in 'lecture1' so are not displayed.
 <br>
@@ -65,7 +65,7 @@ Error Indication: No error.
 
 __Using ls with a path to a file as an argument__
 
-![Alt text](image-5.png)
+![Alt text](image-10.png)
 
 Working Directory: The current working directory before executing the command.
 <br>
@@ -78,13 +78,13 @@ The cat command is used to display the contents of a file.
 
 __Using cat with no arguments__
 
-![Alt text](image-6.png)
+![Alt text](image-11.png)
 
 Working Directory: The home directory.
 <br>
-Output Explanation: Running cat without arguments results in an error because it expects a file to display.
+Output Explanation: Running cat without arguments means that it does not have anything to output. It will instead read data from a standard input and write them to its standard output as it has done with the word 'hi' in the screenshot.
 <br>
-Error Indication: Error: No such file or directory.
+Error Indication: No error
 
 __Using cat with a path to a directory as an argument__
 
